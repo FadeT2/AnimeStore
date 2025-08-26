@@ -1,0 +1,161 @@
+@use "_variables" as v;
+
+/*Mangas*/
+
+@include v.mobile{
+    .mangas {
+        .shojo {
+            .card {
+                width: 95% !important;
+                margin: 5px;
+                line-height: 1.2;
+                padding: 5px;
+                p {
+                    font-size: 14px;
+                }
+                h5 {
+                color: azure;
+                text-align: center;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-decoration: underline rgb(121, 0, 0);
+                }
+                img {
+                    height: 320px;
+                }
+                }
+            }
+        .seinen {
+            .card {
+                width: 95% !important;
+                margin: 5px;
+                line-height: 1.2;
+                padding: 5px;
+                p {
+                    font-size: 14px;
+                }
+                h5 {
+                color: azure;
+                text-align: center;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-decoration: underline rgb(121, 0, 0);
+                }
+                img {
+                    height: 320px;
+                }
+                }
+        }
+        .romcom {
+            .card {
+                width: 95% !important;
+                margin: 5px;
+                line-height: 1.2;
+                padding: 5px;
+                p {
+                    font-size: 14px;
+                }
+                h5 {
+                color: azure;
+                text-align: center;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-decoration: underline rgb(121, 0, 0);
+                }
+                img {
+                    height: 320px;
+                }
+                }
+        }
+        }
+}
+
+
+.mangas {
+    p {
+        margin-left: 10px;
+        text-align: center;
+        font-size: 17px;
+    }
+    ul {
+        border: 2px red solid;
+        border-radius: 15px;
+        background-color: rgb(1, 1, 1);
+        width: 250px;
+        height: 180px;
+        li {
+            margin-top: 5px;
+            list-style:none;
+            margin: 15px;
+            a {
+                color: rgb(71, 0, 0);
+                text-decoration: underline rgb(121, 0, 0);
+                font-size: 25px;
+            }
+        }
+
+    }
+    img { 
+        height: 500px;
+    }
+        h2 {
+        text-align: center;
+    }
+}
+.shojo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        color: azure;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-decoration: underline rgb(121, 0, 0);
+    }
+}
+.seinen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        color: azure;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-decoration: underline rgb(121, 0, 0);
+    }
+}
+.romcom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        color: azure;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-decoration: underline rgb(121, 0, 0);
+    }
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h6 {
+        color: azure;
+        text-align: center;
+    h5 {
+        color: azure;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-decoration: underline rgb(121, 0, 0);
+    }
+    }
+}
+
+

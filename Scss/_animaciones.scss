@@ -1,0 +1,21 @@
+/*animaciones*/
+@keyframes pulse {
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.1);
+} 100% {
+    transform: scale(1);
+}
+}
+
+.precio:hover {
+animation: pulse 0.5s;
+}
+.navbar-item {
+transition: transform 0.2s ease-in-out;
+}
+.navbar-item:hover {
+transform: translateY(-5px);
+}

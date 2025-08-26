@@ -1,0 +1,62 @@
+@use "_variables" as v;
+/*Formulario*/
+
+.cuenta-f{
+    
+    h2 {
+        text-align: center;
+        margin: 10px;
+    }
+    h3 {
+        text-align: center;
+        margin: 10px;
+    }
+    p {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+    form {
+        border: 2px red solid;
+        border-radius: 15px;
+        background-color: rgb(1, 1, 1);
+        width: 500px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    label {
+        margin: 10px;
+    }
+    input {
+        margin: 10px;
+        color: rgb(65, 1, 1);
+    }
+    h5 {
+        margin: 5px;
+        text-align: center;
+    }
+    select {
+        color: rgb(65, 1, 1);
+        option {
+            color: rgb(121, 0, 0);
+        }
+    }
+}
+@include v.mobile{
+    .cuenta-f {
+        display: flex;
+        flex-direction: column;
+        section {
+            form {
+                width: 400px;
+                height: auto;
+                label {
+                font-size: 14px;
+            }
+            input {
+                font-size: 14px;
+            }
+            }
+
+        }
+    }
+}
